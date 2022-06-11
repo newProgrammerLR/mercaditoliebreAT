@@ -330,6 +330,20 @@ main article:hover i{
     transform: rotate(-90deg);
     transition-duration: 1s;
 }
+.fa-credit-card:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.fa-gift:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.fa-user-shield:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
 }
 
 
@@ -478,6 +492,20 @@ main article:hover i{
 main article:hover i{
         transform: rotate(-90deg);
         transition-duration: 1s;
+    }
+    .fa-credit-card:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+
+    .fa-gift:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+
+    .fa-user-shield:hover{
+        color: greenyellow;
+        cursor: pointer;
     }
 }
 

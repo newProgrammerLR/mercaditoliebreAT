@@ -289,7 +289,20 @@ footer h6{
         background-color: #1259c3;
         color: white;
     }
+    .fa-credit-card:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
 
+    .fa-gift:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
+
+    .fa-user-shield:hover{
+        color: greenyellow;
+        cursor: pointer;
+    }
     }
     
     
@@ -467,7 +480,20 @@ footer h6{
             border-style: hidden;
             font-size: 16px;
         }
-
+        .fa-credit-card:hover{
+            color: greenyellow;
+            cursor: pointer;
+        }
+    
+        .fa-gift:hover{
+            color: greenyellow;
+            cursor: pointer;
+        }
+    
+        .fa-user-shield:hover{
+            color: greenyellow;
+            cursor: pointer;
+        }
     }
     
     @media (min-width: 769px){

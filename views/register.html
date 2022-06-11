@@ -16,7 +16,7 @@
                     <img src="images/logo2-mercado-liebre.svg" alt="Logo de MercadoLiebre" class="imglogo">
                 </div>
                 <div class="form" action="#" method="GET">
-                    <div class="input">Buscar productos, marcas</div>
+                    <input class="input" type="search" id="search" placeholder="Buscar productos, marcas" />
                     <div class="submit"><i class="fa fa-search"></i></div>
                 </div>
                 <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
@@ -42,17 +42,17 @@
             <form action="/" method="POST">
             <div class="formulario">
                 <div class="lineanombre">
-                    <input class="nombreinput" type="text" name="name" placeholder="Nombre y apellido">
+                    <input class="nombreinput" type="text" name="name" placeholder="Nombre y apellido" required="">
                     <span><p class="pformu">Usá el formato Pablo</p></span>
                 </div>
                 
                 <div class="lineapellido">
-                    <input class="apellidoinput" type="text" name="user" placeholder="Nombre de usuario">
+                    <input class="apellidoinput" type="text" name="user" placeholder="Nombre de usuario" required="">
                     <span><p class="pformu">Usá el formato Perez</p></span>
                 </div>
 
                 <div class="email">
-                    <input class="emailinput" type="email" name="email" placeholder="E-mail">
+                    <input class="emailinput" type="email" name="email" placeholder="E-mail" required="">
                     <span><p class="pformu">Usá el formato nombre@ejemplo.com</p></span>
                 </div>
 
@@ -109,12 +109,12 @@
                 </div>
 
                 <div class="eligec">            
-                <input class="contr" type="password" name="pass" placeholder="Elegí tu contraseña">
+                <input class="contr" type="password" name="pass" placeholder="Elegí tu contraseña" required="">
                 <span><p class="pformu">La Contraseña debe tener Mayuscula, Numero y un Simbolo </p></span>
                 </div>
 
                 <div class="confirmac">            
-                <input class="contr" type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+                <input class="contr" type="password" name="pass_confirm" placeholder="Confirmá tu contraseña" required="">
                 <span><p class="pformu">"La Contraseña no es correcta"</p></span>
                 </div>
                 
